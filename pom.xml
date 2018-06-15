@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.nem.core</groupId>
 	<artifactId>nem-core</artifactId>
-	<version>0.6.95-BETA</version>
+	<version>0.6.96-proximax-SNAPSHOT</version>
 	<name>NEM Core</name>
 	
 	<distributionManagement>
@@ -31,13 +31,13 @@
 		<spring.version>4.1.6.RELEASE</spring.version>
 	</properties>
 
-	<dependencies>
 
+	<dependencies>
 		<dependency>
 			<groupId>com.googlecode.javaewah</groupId>
 			<artifactId>JavaEWAH</artifactId>
 			<version>1.0.0</version>
-		</dependency>
+    </dependency>
 
 		<dependency>
 			<groupId>net.minidev</groupId>
