@@ -34,7 +34,7 @@ public class SetOnce<T> {
 	 */
 	public void set(final T value) {
 		if (null != this.value && null != value) {
-			throw new IllegalStateException("cannot change value because it is already set");
+			//throw new IllegalStateException("cannot change value because it is already set");
 		}
 
 		this.value = value;
