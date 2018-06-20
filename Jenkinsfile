@@ -34,7 +34,7 @@ pipeline {
 
         stage('Deploy Snapshot') {
             steps {
-                sh 'mvn deploy -DskipTests -DaltSnapshotDeploymentRepository="nexus::default::https://nexus.internal.proximax.io/repository/maven-snapshots"'
+                sh 'mvn deploy -DskipTests -DaltDeploymentRepository="nexus::default::https://nexus.internal.proximax.io/repository/maven-snapshots"'
             }
         }
     }
