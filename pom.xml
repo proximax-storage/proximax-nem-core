@@ -7,19 +7,6 @@
 	<version>0.6.96-proximax-SNAPSHOT</version>
 	<name>NEM Core</name>
 	
-	<distributionManagement>
-		<repository>
-			<id>nexus</id>
-			<name>Releases</name>
-			<url>http://13.228.214.237:8081/repository/maven-releases</url>
-		</repository>
-		<snapshotRepository>
-			<id>nexus</id>
-			<name>Snapshot</name>
-			<url>http://13.228.214.237:8081/repository/maven-snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
-	
 	<organization>
 		<name>NEM - New Economy Movement</name>
 		<url>http://nem.io</url>
