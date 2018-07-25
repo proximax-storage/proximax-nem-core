@@ -6,20 +6,26 @@
 	<artifactId>nem-core</artifactId>
 	<version>0.6.96-proximax-SNAPSHOT</version>
 	<name>NEM Core</name>
-	
+
 	<distributionManagement>
 		<repository>
+			<uniqueVersion>false</uniqueVersion>
 			<id>nexus</id>
-			<name>Releases</name>
-			<url>http://13.228.214.237:8081/repository/maven-releases</url>
+			<name>proximax nexus release</name>
+			<url>https://nexus.internal.proximax.io/repository/maven-releases/</url>
 		</repository>
 		<snapshotRepository>
+			<uniqueVersion>true</uniqueVersion>
 			<id>nexus</id>
-			<name>Snapshot</name>
-			<url>http://13.228.214.237:8081/repository/maven-snapshots</url>
+			<name>proximax nexus snapshot</name>
+			<url>https://nexus.internal.proximax.io/repository/maven-snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
-	
+	<scm>
+		<connection>scm:git:https://github.com/proximax-storage/proximax-nem-core.git</connection>
+		<developerConnection>scm:git:https://github.com/proximax-storage/proximax-nem-core.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
 	<organization>
 		<name>NEM - New Economy Movement</name>
 		<url>http://nem.io</url>

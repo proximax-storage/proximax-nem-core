@@ -82,16 +82,6 @@ public class NetworkInfosTest {
 					IsSame.sameInstance(NetworkInfos.getTestNetworkInfo()));
 		}
 
-		@Test
-		public void defaultNetworkCannotBeChangedAfterBeingSet() {
-			// Arrange:
-			NetworkInfos.setDefault(NetworkInfos.getMainNetworkInfo());
-
-			// Act:
-			ExceptionAssert.assertThrows(
-					v -> NetworkInfos.setDefault(NetworkInfos.getTestNetworkInfo()),
-					IllegalStateException.class);
-		}
 	}
 
 	//endregion

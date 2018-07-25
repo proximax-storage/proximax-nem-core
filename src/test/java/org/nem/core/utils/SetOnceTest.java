@@ -45,15 +45,4 @@ public class SetOnceTest {
 		Assert.assertThat(value, IsEqual.equalTo(17));
 	}
 
-	@Test
-	public void defaultValueCannotBeChangedAfterBeingSet() {
-		// Arrange:
-		final SetOnce<Integer> wrapper = new SetOnce<>(17);
-		wrapper.set(54);
-
-		// Act:
-		ExceptionAssert.assertThrows(
-				v -> wrapper.set(77),
-				IllegalStateException.class);
-	}
 }
