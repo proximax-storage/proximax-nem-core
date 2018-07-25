@@ -1,10 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.nem.core</groupId>
 	<artifactId>nem-core</artifactId>
-	<version>0.6.96-proximax-SNAPSHOT</version>
+	<version>0.6.96-proximax</version>
 	<name>NEM Core</name>
 
 	<distributionManagement>
@@ -24,7 +22,7 @@
 	<scm>
 		<connection>scm:git:https://github.com/proximax-storage/proximax-nem-core.git</connection>
 		<developerConnection>scm:git:https://github.com/proximax-storage/proximax-nem-core.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>nem-core-0.6.96-proximax</tag>
 	</scm>
 	<organization>
 		<name>NEM - New Economy Movement</name>
