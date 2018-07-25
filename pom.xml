@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.nem.core</groupId>
 	<artifactId>nem-core</artifactId>
-	<version>0.6.96-proximax</version>
+	<version>0.6.97-proximax-SNAPSHOT</version>
 	<name>NEM Core</name>
 
 	<distributionManagement>
@@ -22,7 +22,7 @@
 	<scm>
 		<connection>scm:git:https://github.com/proximax-storage/proximax-nem-core.git</connection>
 		<developerConnection>scm:git:https://github.com/proximax-storage/proximax-nem-core.git</developerConnection>
-		<tag>nem-core-0.6.96-proximax</tag>
+		<tag>HEAD</tag>
 	</scm>
 	<organization>
 		<name>NEM - New Economy Movement</name>
