@@ -4,22 +4,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.nem.core</groupId>
 	<artifactId>nem-core</artifactId>
-	<version>0.6.96-proximax-SNAPSHOT</version>
+	<version>0.6.97-proximax-SNAPSHOT</version>
 	<name>NEM Core</name>
-	
-	<distributionManagement>
-		<repository>
-			<id>nexus</id>
-			<name>Releases</name>
-			<url>http://13.228.214.237:8081/repository/maven-releases</url>
-		</repository>
-		<snapshotRepository>
-			<id>nexus</id>
-			<name>Snapshot</name>
-			<url>http://13.228.214.237:8081/repository/maven-snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
-	
+
 	<organization>
 		<name>NEM - New Economy Movement</name>
 		<url>http://nem.io</url>
@@ -30,7 +17,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring.version>4.1.6.RELEASE</spring.version>
 	</properties>
-
 
 	<dependencies>
 		<dependency>
